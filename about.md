@@ -1,8 +1,9 @@
 ---
 layout: default
-title: About
+title: About Us
 permalink: /about/
 ---
+
 
 <section class="cp_social-links-holder">
 <div class="container">
