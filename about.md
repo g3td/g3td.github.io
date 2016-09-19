@@ -147,7 +147,7 @@ permalink: /about/
             <div class="image-dis clearfix"> 
                 <div class="about-me-image-block">
                     <div class="col-md-3 col-sm-6 col-xs-12">
-                        <img src="/assets/img/.jpg" alt="photo" title="" class="img-responsive">
+                        <img src="/assets/img/team1.jpg" alt="photo" title="" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">							
