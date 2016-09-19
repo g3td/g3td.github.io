@@ -21,6 +21,12 @@
 /* ==========================================================================
    0. Includes - Ground zero
    ========================================================================== */
+.cp_social-links-holder {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    padding: 60px 0;
+}
 .top-menu {
     width: 700px;
     margin: 0 auto;
