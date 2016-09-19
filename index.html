@@ -1,0 +1,30 @@
+---
+layout: blogs
+---
+  
+{% for post in site.posts %}  
+<article class="post tag-getting-started">
+    <img class='img-left' src='{{ post.logouser }}' />
+    <br/>
+    <header class="post-header">
+        <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <br/>
+        <div class="date-box">
+            <span class="date-outer">
+         <span class="date-inner"><time datetime="2014-01-15">{{ post.date }}</time></span>
+            </span>
+        </div>
+    </header>
+    <section class="post-excerpt">
+        <br>
+        <p><p><img src="{{ post.thumbnail }}" alt="" /></p>{{ post.description }}</p>
+    </section>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="post-meta"> Read More </a>
+</article>
+<br/>
+{% endfor %}
+<nav class="pagination" role="navigation">
+    <span class="page-number">Page 1 of 2</span>
+    <a class="older-posts" href="/page/2/">Older Posts &rarr;</a>
+</nav>
+    
